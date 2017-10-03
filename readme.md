@@ -1,5 +1,15 @@
 # Slidebars
 
+**NOTE:** This is a fork of the main Slidebars repo with basic support added for common-js and amd so that you can use it with webpack without a plugin. To depend on this fork, update your `package.json` to include this:
+
+```JSON
+{
+  "dependencies": {
+    "slidebars": "git+ssh://git@github.com/jaredh159/Slidebars.git#3.0.0"
+  }
+}
+```
+
 Slidebars is a jQuery Framework for Off-Canvas Menus and Sidebars into your website or web app.
 
 Version 2.0 is a complete rewrite which features clean and discreet markup, permits an unlimited number of off-canvas instances on any side and is equipped with a full API, callbacks and events for ultimate control.
