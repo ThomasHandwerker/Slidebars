@@ -1,6 +1,6 @@
 /*!
  * Slidebars - A jQuery Framework for Off-Canvas Menus and Sidebars
- * Version: 2.0.2
+ * Version: 3.0.0
  * Url: http://www.adchsm.com/slidebars/
  * Author: Adam Charles Smith
  * Author url: http://www.adchsm.com/
@@ -458,3 +458,13 @@ var slidebars = function () {
 
 	$( window ).on( 'resize', this.css.bind( this ) );
 };
+
+if (typeof define !== 'undefined' && define.amd) {
+	define([], function () {
+		return slidebars;
+	});
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+	module.exports = slidebars;
+}
