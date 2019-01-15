@@ -178,8 +178,6 @@
 
 		// Resize Functions
 		$(window).resize(function () {
-			console.log("resize window");
-
 			var resizedWindowWidth = $(window).width(); // Get resized window width.
 			if (windowWidth !== resizedWindowWidth) {
 				// Slidebars is running and window was actually resized.
